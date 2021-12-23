@@ -95,3 +95,9 @@ input, select {
     height: 98vw;
     margin: 1vw auto 1vw auto;
 }
+
+#newgrid {
+    margin: auto;
+    display: block;
+    margin-top: 1vw;
+}
