@@ -33,7 +33,7 @@ function addHoverEffect() {
   const squares = document.querySelectorAll('.square');
   squares.forEach(square => {
     square.addEventListener("mouseover", function() {
-      square.style.backgroundColor = `hsl(${360*Math.random()},100%,50%)`;
+      console.log(square.style.backgroundColor);
     });
   })
 }
